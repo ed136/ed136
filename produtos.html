@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto padrão</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+
+
+</head>
+
+<body>
+
+
+
+    
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-warning navbar-dark">
+        <div class="container">
+            <!-- Botão Hamburguer -->
+            <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Itens do Menu -->
+            <div class="collapse navbar-collapse justify-content-end" id="menuNavbar">
+                <ul class="navbar-nav align-items-lg-center gap-lg-3">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light fw-bold px-4" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light fw-bold px-4" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light fw-bold px-4" href="fivelas-automaticas.html">Fivela automatica</a>
+                    </li>
+                    
+                    
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light fw-bold px-4" href="compras.html">Compras</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="bg-warning text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- LADO ESQUERDO -->
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold mb-3">
+                        Cintos de lona para todos os estilos e, todas as ocasiões. 
+                    </h1>
+                    <p class="lead mb-4">
+                        Ideal para o seu dia a dia e para eventos, nossos cintos são versáteis, e estão sempre na moda.
+                    </p>
+                    <p class="mt-4 mb-2">Disponível para</p>
+                    <div class="d-flex gap-1 align-items-center">
+                        <button class="btn btn-outline-light">
+                            <i class="bi bi-android2"></i>
+                        </button>
+                        <button class="btn btn-outline-light">
+                            <i class="bi bi-apple"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- LADO DIREITO -->
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <img src="imagem/img.logo.png" class="img-fluid" alt="Aplicativo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 1 -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <!-- TEXTO À ESQUERDA -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-3">
+                        Cinto de lona com duas bordas e, ilhós, temos vários tamanhos.
+                    </h2>
+                    <p class="text-muted mb-4">
+                        Cinto ideal para o seu dia a dia e, todas as ocasiões.
+                    </p>
+                </div>
+                <!-- IMAGEM À DIREITA -->
+                <div class="col-lg-6 text-center" style="position: relative; z-index: 10;">
+                    <img src="imagem/imagem10.jpeg" class="img-fluid rounded shadow" alt="Cinto Modelo 1" style="max-height: 450px; object-fit: contain; transition: transform 0.4s ease; cursor: pointer;" onmouseover="this.style.transform='scale(3)'; this.style.zIndex='999'; this.style.position='relative';" onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.position='static';">
+                </div>
+            </div>
+
+            <!-- SEGUNDO BLOCO DA SEÇÃO -->
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6 text-center mb-4 mb-lg-0" style="position: relative; z-index: 10;">
+                    <img src="imagem/imagem9.jpeg" class="img-fluid rounded shadow" alt="Cinto Modelo 2" style="max-height: 450px; object-fit: contain; transition: transform 0.4s ease; cursor: pointer;" onmouseover="this.style.transform='scale(3)'; this.style.zIndex='999'; this.style.position='relative';" onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.position='static';">
+                </div>
+                <div class="col-lg-6 text-center" style="position: relative; z-index: 10;">
+                    <img src="imagem/imagem11.jpeg" class="img-fluid rounded shadow" alt="Cinto Modelo 3" style="max-height: 450px; object-fit: contain; transition: transform 0.4s ease; cursor: pointer;" onmouseover="this.style.transform='scale(3)'; this.style.zIndex='999'; this.style.position='relative';" onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.position='static';">
+                </div>
+            </div>
+
+            <!-- TERCEIRO BLOCO DA SEÇÃO -->
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-3">
+                        Cinto de lona com duas bordas e fivela dupla, costurado em couro.
+                    </h2>
+                    <p class="text-muted mb-4">
+                        Cinto ideal para o seu dia a dia e, todas as ocasiões.
+                    </p>
+                </div>
+                <div class="col-lg-6 text-center" style="position: relative; z-index: 10;">
+                    <img src="imagem/imagem12.jpeg" class="img-fluid rounded shadow" alt="Cinto Modelo 4" style="max-height: 450px; object-fit: contain; transition: transform 0.4s ease; cursor: pointer;" onmouseover="this.style.transform='scale(3)'; this.style.zIndex='999'; this.style.position='relative';" onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.position='static';">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SEÇÃO ESTILO SOCIAL -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 text-center">
+                    <h2 class="fw-bold mb-3">
+                        Cintos costurados com couro na fivela.
+                    </h2>
+                    <p class="text-muted mb-4">
+                        Estilo social e, esporte fino, ideal, também para o fim de semana.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE CARDS / MODELOS -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center">
+                <!-- COLUNA 1 -->
+                <div class="col-lg-4 mb-4" style="position: relative; z-index: 10;">
+                    <div class="mb-3">
+                        <img src="imagem/modelo4.jpeg" class="img-fluid rounded shadow" alt="Cinto com fivela automática" style="max-height: 350px; object-fit: contain; transition: transform 0.4s ease; cursor: pointer;" onmouseover="this.style.transform='scale(3)'; this.style.zIndex='999'; this.style.position='relative';" onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.position='static';">
+                    </div> 
+                    <h4 class="fw-bold">Cinto com fivela automática</h4>
+                    <p class="text-muted">Em várias cores, combine com seu visual.</p>
+                </div>
+
+                <!-- COLUNA 2 -->
+                <div class="col-lg-4 mb-4" style="position: relative; z-index: 7;">
+                    <div class="mb-3">
+                        <img src="imagem/modelo6.jpeg" class="img-fluid rounded shadow" alt="Fivela dupla" style="max-height: 350px; object-fit: contain; transition: transform 0.4s ease; cursor: pointer;" onmouseover="this.style.transform='scale(3)'; this.style.zIndex='999'; this.style.position='relative';" onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.position='static';">
+                    </div> 
+                    <h4 class="fw-bold">Fivela dupla, com couro e rebites.</h4>
+                    <p class="text-muted">Cinto reforçado, estiloso e confortável.</p>
+                </div>
+
+                <!-- COLUNA 3 -->
+                <div class="col-lg-4 mb-4" style="position: relative; z-index: 10;">
+                    <div class="mb-3">
+                        <img src="imagem/modelo2.jpeg" class="img-fluid rounded shadow" alt="Kit com 3 cintos" style="max-height: 350px; object-fit: contain; transition: transform 0.4s ease; cursor: pointer;" onmouseover="this.style.transform='scale(3)'; this.style.zIndex='999'; this.style.position='relative';" onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.position='static';">
+                    </div> 
+                    <h4 class="fw-bold">Kit com 3 cintos</h4>
+                    <p class="text-muted">Economia e praticidade, com cores diferentes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-warning text-white py-4">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <!-- REDES SOCIAIS -->
+                <div class="col-md-12 text-center">
+                    <a href="#" class="text-white fs-4 me-3">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="text-white fs-4 me-3">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="#" class="text-white fs-4">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+script src="js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+ 
+</html>
+    
